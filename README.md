@@ -63,7 +63,7 @@ SQLite is a small, fast, self-contained, and reliable SQL database engine, and t
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. If you'd like to help maintain this list, we'd love to have you join the org.
+Contributions are welcome. Please read the [contribution guidelines](contributing.md) first.
 
 ## License
 
