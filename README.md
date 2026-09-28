@@ -1,52 +1,60 @@
 # Awesome SQLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome [SQLite](https://www.sqlite.org) tools, libraries, extensions, and resources.
+> Small, fast, self-contained, and reliable SQL database engine, and the most widely deployed database in the world.
 
 **Disclaimer:** This list is maintained by the [Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio) team. Beekeeper Studio is an easy to use database manager for SQLite and 12+ other databases. Our goal is to keep this list impartial. We'd love other outside maintainers to join the org to help make that happen.
 
-SQLite is a small, fast, self-contained, and reliable SQL database engine, and the most widely deployed database in the world. This list collects the best tools and resources around it.
-
 ## Contents
 
-- [Database GUIs / Database Managers](#database-guis--database-managers)
-- [Command Line Tools](#command-line-tools)
+- [Database GUIs and Managers](#database-guis-and-managers)
+- [Command-line Tools](#command-line-tools)
 - [Extensions](#extensions)
-- [Replication, Backup, and Distributed SQLite](#replication-backup-and-distributed-sqlite)
+- [Replication and Backup](#replication-and-backup)
 - [Web Interfaces and Data Exploration](#web-interfaces-and-data-exploration)
 - [Forks and Related Projects](#forks-and-related-projects)
 - [Official Resources](#official-resources)
 - [Contributing](#contributing)
 
-## Database GUIs / Database Managers
+## Database GUIs and Managers
 
-- [Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio) - Cross-platform SQL editor and database manager for SQLite and many other databases. Open source core with paid tiers.
-- [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) - Open source, visual tool to create, design, and edit SQLite database files.
+Desktop and web applications for browsing, querying, and managing SQLite databases.
+
+- [Beekeeper Studio](https://www.beekeeperstudio.io/) - Cross-platform SQL editor and database manager with an open source community edition and a commercial edition.
+- [DataGrip](https://www.jetbrains.com/datagrip/) - JetBrains' commercial database IDE with code completion, refactoring, and version control integration.
+- [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) - Free, open source visual tool to create, design, and edit SQLite database files.
+- [DBeaver](https://github.com/dbeaver/dbeaver) - Free, open source, cross-platform universal database tool, with a commercial edition for extra features.
+- [Navicat for SQLite](https://www.navicat.com/en/products/navicat-for-sqlite) - Commercial cross-platform GUI with data modeling, transfer, and synchronization tools.
 - [SQLiteStudio](https://github.com/pawelsalawa/sqlitestudio) - Free, open source, cross-platform SQLite database manager.
-- [DBeaver](https://github.com/dbeaver/dbeaver) - Free, open source universal database tool with SQLite support.
-- [TablePlus](https://tableplus.com) - Modern, native database client for macOS, Windows, and Linux. Proprietary.
-- [DataGrip](https://www.jetbrains.com/datagrip/) - JetBrains database IDE with SQLite support. Proprietary.
-- [Navicat for SQLite](https://www.navicat.com/en/products/navicat-for-sqlite) - Database administration and development tool. Proprietary.
+- [TablePlus](https://tableplus.com/) - Native, cross-platform GUI for SQLite and other databases, with a free tier.
 
-## Command Line Tools
+## Command-line Tools
 
-- [sqlite3 shell](https://www.sqlite.org/cli.html) - The official SQLite command line shell.
-- [litecli](https://github.com/dbcli/litecli) - SQLite CLI with auto-completion and syntax highlighting.
-- [sqlite-utils](https://github.com/simonw/sqlite-utils) - Python CLI utility and library for manipulating SQLite databases.
-- [Harlequin](https://github.com/tconbeer/harlequin) - Terminal-based SQL IDE with SQLite support.
+Terminal clients and utilities for working with SQLite databases.
+
+- [Harlequin](https://github.com/tconbeer/harlequin) - Free, open source terminal-based SQL IDE with SQLite support.
+- [litecli](https://github.com/dbcli/litecli) - Free, open source SQLite CLI with auto-completion and syntax highlighting.
+- [sqlite-utils](https://github.com/simonw/sqlite-utils) - Free, open source Python CLI utility and library for manipulating SQLite databases.
+- [sqlite3 shell](https://www.sqlite.org/cli.html) - The official command-line shell that ships with SQLite.
 
 ## Extensions
 
-- [sqlean](https://github.com/nalgeon/sqlean) - A collection of useful SQLite extensions (crypto, fuzzy matching, regexp, and more).
-- [sqlite-vec](https://github.com/asg017/sqlite-vec) - Vector search extension for SQLite.
-- [SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/index) - Spatial extension adding GIS capabilities to SQLite.
+Extensions that add functions, data types, and search capabilities to SQLite.
 
-## Replication, Backup, and Distributed SQLite
+- [sqlean](https://github.com/nalgeon/sqlean) - Collection of useful SQLite extensions, including crypto, fuzzy matching, and regular expressions.
+- [SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/index) - Spatial extension that adds GIS capabilities to SQLite.
+- [sqlite-vec](https://github.com/asg017/sqlite-vec) - Vector search extension for SQLite.
+
+## Replication and Backup
+
+Tools for replicating, backing up, and distributing SQLite databases.
 
 - [Litestream](https://github.com/benbjohnson/litestream) - Streaming replication for SQLite to S3 and other storage.
 - [LiteFS](https://github.com/superfly/litefs) - FUSE-based file system for replicating SQLite databases across a cluster.
 - [rqlite](https://github.com/rqlite/rqlite) - Lightweight, distributed relational database built on SQLite.
 
 ## Web Interfaces and Data Exploration
+
+Tools for exploring and publishing SQLite data in the browser.
 
 - [Datasette](https://github.com/simonw/datasette) - Tool for exploring and publishing SQLite data.
 - [sqlite-web](https://github.com/coleifer/sqlite-web) - Web-based SQLite database browser written in Python.
@@ -57,16 +65,10 @@ SQLite is a small, fast, self-contained, and reliable SQL database engine, and t
 
 ## Official Resources
 
-- [SQLite Home Page](https://www.sqlite.org)
-- [SQLite Documentation](https://www.sqlite.org/docs.html)
-- [SQLite Forum](https://sqlite.org/forum)
+- [SQLite Documentation](https://www.sqlite.org/docs.html) - Official documentation, including the SQL language reference and C API.
+- [SQLite Forum](https://sqlite.org/forum) - Official forum for questions and discussion.
+- [SQLite Home Page](https://www.sqlite.org) - The official SQLite website.
 
 ## Contributing
 
 Contributions are welcome. Please read the [contribution guidelines](contributing.md) first.
-
-## License
-
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
