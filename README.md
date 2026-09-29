@@ -13,6 +13,7 @@
 - [Web Interfaces and Data Exploration](#web-interfaces-and-data-exploration)
 - [Forks and Related Projects](#forks-and-related-projects)
 - [Official Resources](#official-resources)
+- [Learning Resources](#learning-resources)
 - [Contributing](#contributing)
 
 ## Database GUIs and Managers
@@ -68,6 +69,10 @@ Tools for exploring and publishing SQLite data in the browser.
 - [SQLite Documentation](https://www.sqlite.org/docs.html) - Official documentation, including the SQL language reference and C API.
 - [SQLite Forum](https://sqlite.org/forum) - Official forum for questions and discussion.
 - [SQLite Home Page](https://www.sqlite.org) - The official SQLite website.
+
+## Learning Resources
+
+- [SQL Easy](https://sql-easy.com) - Interactive SQL tutorials and exercises.
 
 ## Contributing
 
